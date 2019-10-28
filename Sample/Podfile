@@ -9,8 +9,8 @@ end
 
 def libraries_rx_swift
   pod 'Moya-ObjectMapper/RxSwift', :path => "../"
-  pod 'Moya/RxSwift'
-  pod 'RxSwift' #, :git => 'https://github.com/ReactiveX/RxSwift'
+  pod 'Moya/RxSwift', '~> 13.0'
+  pod 'RxSwift' #, :git => 'https://github.com/ReactiveX/RxSwift', "~> 4.0"
   pod 'RxDataSources'
   pod 'RxCocoa'
   pod 'RxAlertController'
@@ -23,8 +23,8 @@ def libraries_reactive_swift
 end
 
 def required_pods
-  pod 'ObjectMapper' #, :git => 'https://github.com/Hearst-DD/ObjectMapper'
-  pod 'Moya' #, :git => 'https://github.com/Moya/Moya'
+  pod 'ObjectMapper' #, :git => 'https://github.com/Hearst-DD/ObjectMapper', '3.5.1'
+  pod 'Moya' #, :git => 'https://github.com/Moya/Moya', '~> 13.0'
 end
 
 # Test Libraries
