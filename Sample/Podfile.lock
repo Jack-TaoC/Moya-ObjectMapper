@@ -1,21 +1,21 @@
 PODS:
-  - Alamofire (4.8.1)
+  - Alamofire (4.9.0)
   - Differentiator (3.1.0)
-  - Moya (12.0.1):
-    - Moya/Core (= 12.0.1)
-  - Moya-ObjectMapper (2.7):
-    - Moya-ObjectMapper/Core (= 2.7)
-  - Moya-ObjectMapper/Core (2.7):
-    - Moya (~> 12.0)
-    - ObjectMapper (~> 3.4)
-  - Moya-ObjectMapper/RxSwift (2.7):
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya-ObjectMapper (2.8):
+    - Moya-ObjectMapper/Core (= 2.8)
+  - Moya-ObjectMapper/Core (2.8):
+    - Moya (~> 13.0)
+    - ObjectMapper (~> 3.0)
+  - Moya-ObjectMapper/RxSwift (2.8):
     - Moya-ObjectMapper/Core
-    - Moya/RxSwift
-    - RxSwift (~> 4)
-  - Moya/Core (12.0.1):
+    - Moya/RxSwift (~> 13.0)
+    - RxSwift (~> 4.0)
+  - Moya/Core (13.0.1):
     - Alamofire (~> 4.1)
-    - Result (~> 4.0)
-  - Moya/RxSwift (12.0.1):
+    - Result (~> 4.1)
+  - Moya/RxSwift (13.0.1):
     - Moya/Core
     - RxSwift (~> 4.0)
   - ObjectMapper (3.4.2)
@@ -36,7 +36,7 @@ DEPENDENCIES:
   - Moya
   - Moya-ObjectMapper (from `../`)
   - Moya-ObjectMapper/RxSwift (from `../`)
-  - Moya/RxSwift
+  - Moya/RxSwift (~> 13.0)
   - ObjectMapper
   - RxAlertController
   - RxCocoa
@@ -61,10 +61,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
-  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
-  Moya-ObjectMapper: a85f8002093a326150b7ba72dc4cf39217401757
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Moya-ObjectMapper: 1fe16269d27ab182eeb9a43779c926527a4fc774
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   RxAlertController: 085028503d78685237d9d8f4d8d3c5ec5f2bb031
@@ -73,6 +73,6 @@ SPEC CHECKSUMS:
   RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
   RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
 
-PODFILE CHECKSUM: bad88f3fd54af2f7b4e8cffdbbe8df2a30cfd986
+PODFILE CHECKSUM: f52f5dd2c9c955adfd85ea04c4f9af7e2c17f98a
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.0.rc.2

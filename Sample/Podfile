@@ -23,7 +23,7 @@ def libraries_reactive_swift
 end
 
 def required_pods
-  pod 'ObjectMapper' #, :git => 'https://github.com/Hearst-DD/ObjectMapper', '3.5.1'
+  pod 'ObjectMapper' #, :git => 'https://github.com/Hearst-DD/ObjectMapper', '~> 3.0'
   pod 'Moya' #, :git => 'https://github.com/Moya/Moya', '~> 13.0'
 end
 
